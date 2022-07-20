@@ -94,13 +94,8 @@
   }
   
   #deleteAll{
-    background-color: crimson;
+    background-color: rgb(222, 5, 49);
     color: white;
   }
   
-  /* a{
-    color: green;
-  }
-  a:visited{
-    color: blueviolet;
-  } */
+  
