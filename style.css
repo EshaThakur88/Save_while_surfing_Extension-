@@ -46,7 +46,7 @@
   .btns{
     display: flex;
     justify-content:space-between;
-    margin: 0.1rem 0;
+    margin: 0.1rem 0 0 0;
   }
   
   button {
@@ -74,9 +74,9 @@
     display: block;
     font-size: .9rem;
     padding:.5rem;
-    background-color: #a3a3ba;
+    background-color: #cacadc;
     border-radius: .2rem;
-    margin: .2rem;
+    margin: .4rem 0.2rem;
     text-align: left;
     width: 300px;
     height: auto;
@@ -101,7 +101,7 @@
   }
 
   a{
-    color: green;
+    color: rgb(6, 209, 6);
   }
   a:visited{
     color: rgb(55, 51, 58);
