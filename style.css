@@ -1,6 +1,6 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 5px;
     text-decoration: none;
     box-sizing: border-box;
   }
@@ -10,17 +10,18 @@
   }
   
   body {
-    background-color: rgb(225, 238, 255);
+    background-color: rgb(153, 171, 198);
     padding: .6rem;
     min-width: 300px;
     min-height: 400px;
     overflow: scroll;
     font-family: sans-serif;
   }
+
   #alert{
     display: none;
     color: red;
-    background: black;
+    background: rgb(153, 171, 198);
     width: fit-content;
     font-size: .6rem;
     border-radius: .2rem;
@@ -39,12 +40,13 @@
     height: 1.7rem;
     margin-bottom: .5rem;
     padding-left: .5rem;
-    border: 2px solid #dcc5ff;
+    border: 2px solid #7784b6;
     border-radius: .2rem;
   }
   .btns{
     display: flex;
     justify-content:space-between;
+    margin: 1rem;
   }
   
   button {
@@ -53,43 +55,23 @@
     border: none;
     width: 100%;
     margin: 0 .3rem;
-    transition: transform 200ms ease-in-out;
+    transition: transform 100ms ease-in-out;
     font-weight: 500;
     border-radius: .2rem;
   }
   
-  ul {
-    margin-top: 1rem;
-    width: 100%;
-    list-style: none;
-    padding: .2rem;
-  }
-
-  ul li {
-    display: block;
-    font-size: .9rem;
-    padding:.5rem;
-    background-color: #dcc5ff;
-    border-radius: .2rem;
-    margin: .2rem;
-    text-align: left;
-    width: 300px;
-    height: auto;
-    overflow-wrap: break-word;
-  }
-
   button:hover{
-    transform: scale(1.1);
+    transform: scaleY(1.2);
   }
 
   #saveTxt {
-    background-color: #8737ff;
+    background-color: #635c6e;
     color: white;
   }
   
   #saveTab{
     background-color: white;
-    border: 2px solid #8737ff;
+    border: 2px solid #635c6e;
     color: #000;
   }
   
