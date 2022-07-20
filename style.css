@@ -46,7 +46,7 @@
   .btns{
     display: flex;
     justify-content:space-between;
-    margin: 1rem;
+    margin: 0.3rem;
   }
   
   button {
