@@ -64,6 +64,26 @@
     transform: scaleY(1.2);
   }
 
+  ul {
+    margin-top: 1rem;
+    width: 100%;
+    list-style: none;
+    padding: .2rem;
+  }
+  ul li {
+    display: block;
+    font-size: .9rem;
+    padding:.5rem;
+    background-color: #635c6e;
+    border-radius: .2rem;
+    margin: .2rem;
+    text-align: left;
+    width: 300px;
+    height: auto;
+    overflow-wrap: break-word;
+    
+  }
+
   #saveTxt {
     background-color: #635c6e;
     color: white;
@@ -78,6 +98,13 @@
   #deleteAll{
     background-color: rgb(222, 5, 49);
     color: white;
+  }
+
+  a{
+    color: green;
+  }
+  a:visited{
+    color: rgb(55, 51, 58);
   }
   
   
